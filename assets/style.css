@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #E0EAF0;
+}
+
+.intro{
+    text-align: center;
+}
+
+.container {
+	max-width: 800px;
+	margin: 2rem auto;
+}
+.bg-dark-blue {
+	background-color: #0055A4;;
+}
+
+
+.filled
+{
+	display: flex;
+	flex-wrap: wrap;
+
+	& .cell
+	{
+		width: calc(100% / 10);
+		aspect-ratio: 1 / 1;
+		border: 2px solid black;
+		color: #336699;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+}
