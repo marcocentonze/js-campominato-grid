@@ -10,6 +10,14 @@ body{
 
 .intro{
     text-align: center;
+    
+}
+
+#start_game{
+    padding:6px 12px;
+    border-radius: 20px;
+    margin-top:15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 255, 0.3);
 }
 
 .container {
@@ -21,8 +29,7 @@ body{
 }
 
 
-.filled
-{
+.field{
 	display: flex;
 	flex-wrap: wrap;
 
@@ -31,7 +38,7 @@ body{
 		width: calc(100% / 10);
 		aspect-ratio: 1 / 1;
 		border: 2px solid black;
-		color: #336699;
+		color: rgb(183, 42, 42);
 		display: flex;
 		align-items: center;
 		justify-content: center;
